@@ -1,0 +1,118 @@
+.container {
+  font-weight: bold;
+  /* margin-top: 50px; */
+  text-align: left; /* Ensure container height stays consistent */
+  overflow: hidden; /* Hide overflow text */
+}
+.height-full{
+  width: 100%;
+  /* height:1000px; */
+  /* position: relative; */
+}
+
+.flex_grow
+{
+  flex-grow: 0.5;
+}
+
+.avatarr{
+  /* position: absolute;
+  top: 20px;
+  left: 40px; */
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.text-animation {
+  border-right: 2px solid white; /* Simulate cursor */
+  padding-right: 5px;
+  animation: cursor-blink 0.7s step-end infinite;
+  /* position: absolute;
+  top: 50px; */
+}
+
+@keyframes cursor-blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* .bg-gradient-multiple {
+  background: linear-gradient(to right, #8C3545, #D6C2F2, #AC99F2,#797FF2,#5288F2);
+} */
+
+.gradient-background1 {
+  background: linear-gradient(300deg, #010b63,#3b0156,#013f5a,#3a0172,#014663);
+  height: 1000px;
+  padding-top: 50px;
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 0px; */
+  /* justify-content: space-around; */
+}
+
+.gradient-background2 {
+  background: linear-gradient(300deg, #027004,#076976,#024b6a,#300163,#3d0156);
+  height: 500px;
+  padding-top: 50px;
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 0px; */
+  /* justify-content: space-around; */
+}
+
+.gradient-background3 {
+  background: linear-gradient(300deg, #6e0270,#0e0776,#61026a,#420163,#011f56);
+  height: 700px;
+  padding-top: 50px;
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 0px; */
+  /* justify-content: space-around; */
+}
+
+.gradient-background4 {
+  background: linear-gradient(300deg, #01384a,#0e0776,#3d026a,#01405f,#011f56);
+  height: 700px;
+  padding-top: 50px;
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 0px; */
+  /* justify-content: space-around; */
+}
+
+.avatar-box{
+   display: flex;
+   flex-direction: row;
+  align-items: center;
+  gap: 0px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card_component{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.card_component:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
