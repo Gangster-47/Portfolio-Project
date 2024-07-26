@@ -12,11 +12,11 @@ import {
 function Project() {
   return (
     <div className="gradient-background3 ">
-      <div className="text-white text-6xl text-center">My Projects</div>
-      <div className="flex gap-x-3 px-28 py-14">
+      <div className="text-white text-7xl text-center mb-3">My Projects</div>
+      <div className="flex gap-x-3 px-28 py-16">
         <Stack direction="row" gap={12}>
           <Box width="350px">
-            <Card elevation={5} className="hover:transition-transform hover:duration-300">
+            <Card elevation={5} className="card_component">
               <CardMedia
                 component="img"
                 height="150px"

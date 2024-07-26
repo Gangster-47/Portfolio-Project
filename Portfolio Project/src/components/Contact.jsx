@@ -23,7 +23,7 @@ function Contact() {
                 <CallIcon sx={{width:"30px",height:"30px"}}/>
                 <a href="tel:+1234567890" className="mx-2">
                 <Button variant="outlined">
-                  +91 9491919191
+                  +91 9410101096
                 </Button>
                 </a>
               </div>

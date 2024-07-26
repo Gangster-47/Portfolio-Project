@@ -27,8 +27,8 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/skill" className="hover:underline">
-                    About
+                  <Link to="/project" className="hover:underline">
+                    Projects
                   </Link>
                 </li>
               </ul>
