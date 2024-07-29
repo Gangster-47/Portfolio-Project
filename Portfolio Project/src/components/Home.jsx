@@ -10,11 +10,11 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Home() {
   const imgarray = [
     "../public/workshop2.jpg",
-    "../public/jiit2.jpg",
+    "../public/basketball.jpeg",
     "../public/yash2.jpeg",
-    "../public/audi2.jpg",
-    "../public/mess2.png",
+    "../public/cl1.jpeg",
     "../public/impression2.jpg",
+    "../public/orientation.jpg",
   ];
   const [imgindex, setImageindex] = useState(0);
 
